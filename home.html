@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+    .flag{
+      width:150px;
+      
+      border:2px solid black; 
+      display:inline-block;
+      z-index:1;
+      position:fixed;
+      top:30px;
+      margin-left:50px ;
+    }
+    .orange{
+      background-color:orange;
+      height:30px;
+    }
+    .white{
+      background-color:white;
+      height:30px;
+      display:flex;
+      justify-content:center ; 
+      
+    }
+    .green{
+      background-color:green;
+      height:30px;
+    }
+    .circle{
+      width:28px;
+      height:28px;
+      border-radius:50px;
+      border:2px solid black;
+      display:flex ;
+     justify-content:center ;
+    }
+   .circle div{
+      height:28px;
+      width:3px;
+      background-color:black;
+      border:0px solid black;
+      position:absolute;
+    }
+    .l1{
+      transform:rotate (0deg);
+      
+    }
+    .l2{
+      transform: rotate(90deg);
+      z-index:2;
+    }
+    .l3{
+      transform: rotate(180deg);
+      z-index :3;
+    }
+.l4{
+     transform: rotate(140deg);
+     z-index :4;
+   }
+  .l5{
+    transform: rotate(55deg);
+    z-index :5;
+  }
+  .l6{
+    transform:rotate(140deg);
+  }
+  .stick{
+    height:350px;
+    width:20px;
+    border:2px solid black ;
+    background-color:black ;
+    display:inline-block ;
+    margin-left:200px;
+  }
+  .plate{
+    border:0px solid black ;
+    width:200px ;
+    height:100px;
+    margin-left:110px ;
+    margin-top:-6px;
+    display:flex ;
+    justify-content: center;
+
+  }
+  .plate1{
+    background-color:black;
+    height:33px;
+    width:20% ;
+   align-self:start ;
+   position:fixed ;
+  }
+  .plate2{
+    background-color:black;
+    height:33px;
+    width:35%;
+    align-self :center ;
+    position:fixed ;
+  }
+.plate3{
+    background-color: black;
+    height: 33px;
+    width: 50% ;
+    position:fixed ;
+    align-self:end;
+  }
+  .text{
+    text-align:center ;
+    margin-left:39px ;
+    
+  }
+  .text h1{
+animation-name: example;
+    animation-duration: 4s;
+animation-iteration-count: infinite;
+  }
+@keyframes example {
+  
+  25%  {color:orange;}
+  50%  {color:white;}
+  100% {color: green;}
+}
+  </style>
+</head>
+
+<body>
+<div class="flag">
+  <div class="orange"></div>
+  <div class="white">
+    <div class="circle">
+      <div class="l1"></div>
+       <div class="l2"></div>
+         <div class="l3"></div>
+          <div class="l4"></div>
+         <div class="l5"></div>
+         <div class="l6"></div>
+    </div>
+  </div>
+  <div class="green"></div>
+</div>
+<div class="stick"></div>
+<div class="plate">
+  <div class="plate1"></div>
+  <div class="plate2"></div>
+  <div class="plate3"></div>
+</div>
+<div class="text">
+  <h1>I Love My India</h1>
+</div>
+</body>
+
+</html>
