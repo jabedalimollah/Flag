@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tony Stark",
+      "city": "New York",
+      "age": "45"
+    },
+    {
+      "name": "Ravi Kumar",
+      "city": "Bihar",
+      "age": "33",
+      "id": 3
+    },
+    {
+      "name": "King",
+      "city": "Pratapgarh",
+      "age": "65",
+      "id": 4
+    },
+    {
+      "name": "Saif",
+      "city": "Mumbai",
+      "age": "49",
+      "id": 5
+    },
+    {
+      "name": "Vivek",
+      "city": "Gujrat",
+      "age": "35",
+      "id": 6
+    },
+    {
+      "name": "Tony D Hawks",
+      "city": "Los Angelas",
+      "age": "34",
+      "id": 7
+    },
+    {
+      "name": "Raja",
+      "city": "Dhanbaad",
+      "age": "42",
+      "id": 8
+    },
+    {
+      "name": "Gopal",
+      "city": "Rajasthan",
+      "age": "53",
+      "id": 12
+    }
+  ]
+}
